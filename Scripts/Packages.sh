@@ -71,6 +71,8 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+# 添加 alist 插件
+UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
