@@ -9,23 +9,21 @@ CONFIG_PACKAGE_iptables-mod-tproxy=y            # ← 关键,iptables TPROXY 支
 CONFIG_PACKAGE_nftables=y                       # ← 关键,新版 Nikki 用 nftables
 CONFIG_PACKAGE_kmod-nft-nat=y                   # nftables NAT 模块
 CONFIG_PACKAGE_kmod-nft-tproxy=y                # nftables TPROXY 模块
-
 # === DDNS ===
 CONFIG_PACKAGE_ddns-go=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-i18n-ddns-go-zh-cn=y        # 中文
-
 # === WireGuard(回家) ===
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_wireguard-tools=y
 CONFIG_PACKAGE_qrencode=y
 CONFIG_PACKAGE_luci-app-wireguard=y
-
 # === 通用工具 ===
 CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_wget=y
 CONFIG_PACKAGE_vim=y
 CONFIG_PACKAGE_bash=y
+
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
